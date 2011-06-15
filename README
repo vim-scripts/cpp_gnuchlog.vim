@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3628
+
+This is an add-on to Luis Caamano's gnuchangelog (vimscript #1631) script package.  Note that gnuchangelog ''can be configured with filetype plugins so that one can use different tag searchers for different languages" to provide the class/method/function name in ChangeLog entries.
+
+cpp_gnuchlog.vim is a filetype plugin for c++ that uses the GetTagName() function provided by Gary Johnson's ctags.vim (vimscript #610) script in order to provide the class/method/function name in the ChangeLog entry added by gnuchangelog.  It is a slight modification of the python_gnuchlog.vim filetype plugin provided by gnuchangelog.
